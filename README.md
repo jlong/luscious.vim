@@ -6,6 +6,6 @@ To install, add a plugin line to your Vim config for your plugin manager:
 
     Plugin jlong/luscious.vim
 
-And then set the theme:
+Reload your plugins, and then set the theme:
 
     colorscheme luscious
