@@ -2,8 +2,9 @@
 " A few modifications to Lucius by @johnwlong
 "
 
-" Start with the old version of Lucius (the new one has issues)
-runtime colors/lucius-old.vim
+" Start with Lucius Dark
+runtime colors/lucius.vim
+LuciusDark
 
 " Rename as "luscious"
 let g:colors_name = "luscious"
@@ -45,4 +46,4 @@ hi Special       guifg=#efaf7f    gui=none
 hi Special       ctermfg=216      cterm=none
 
 hi SpellCap      ctermfg=fg       ctermbg=none
-hi SpellCap      guifg=fg         guibg=none
+hi SpellCap      guifg=fg
