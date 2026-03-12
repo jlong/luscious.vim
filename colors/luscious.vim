@@ -47,3 +47,13 @@ hi Special       ctermfg=216      cterm=none
 
 hi SpellCap      ctermfg=fg       ctermbg=none
 hi SpellCap      guifg=fg
+
+" Popup / floating windows
+hi NormalFloat  ctermfg=250      ctermbg=234
+hi Pmenu        ctermfg=250      ctermbg=234      guifg=#bcbcbc    guibg=#1c1c1c
+
+" Coc
+hi FgCocErrorFloatBgCocFloating     ctermfg=250     ctermbg=234
+hi FgCocWarningFloatBgCocFloating   ctermfg=250     ctermbg=234
+hi FgCocInfoFloatBgCocFloating      ctermfg=250     ctermbg=234
+hi FgCocHintFloatBgCocFloating      ctermfg=250     ctermbg=234
