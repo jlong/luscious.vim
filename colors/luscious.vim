@@ -10,7 +10,7 @@ LuciusDark
 let g:colors_name = "luscious"
 
 " Darken the background
-hi Normal        ctermfg=253      ctermbg=16
+hi Normal        ctermfg=253      ctermbg=16      guifg=#d7d7d7    guibg=#000000
 
 " Vertical split
 hi VertSplit     guifg=#363946    guibg=#363946   gui=none
