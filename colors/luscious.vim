@@ -9,8 +9,8 @@ LuciusDark
 " Rename as "luscious"
 let g:colors_name = "luscious"
 
-" Darken the background
-hi Normal        ctermfg=253      ctermbg=16      guifg=#d7d7d7    guibg=#000000
+" Let the terminal background show through (pure black in GUI Vim)
+hi Normal        ctermfg=253      ctermbg=NONE    guifg=#d7d7d7    guibg=#000000
 
 " Vertical split
 hi VertSplit     guifg=#363946    guibg=#363946   gui=none
@@ -28,8 +28,8 @@ hi CursorLine    ctermfg=NONE     ctermbg=234
 hi ColorColumn   ctermfg=NONE     ctermbg=234
 
 " Line numbers
-hi LineNr        ctermfg=245      ctermbg=16
-hi SignColumn    ctermfg=145      ctermbg=16
+hi LineNr        ctermfg=245      ctermbg=NONE
+hi SignColumn    ctermfg=145      ctermbg=NONE
 
 " Status line
 hi StatusLine    ctermfg=white    ctermbg=236
